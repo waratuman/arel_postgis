@@ -1,6 +1,6 @@
 module Arel
   module Visitors
-    class PostGIS < Arel::Visitors::ToSql
+    class PostGIS < Arel::Visitors::PostgreSQL
       private
 
       def visit_Arel_Nodes_Spatial_Function o
